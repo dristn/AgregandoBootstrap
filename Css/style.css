@@ -30,7 +30,7 @@ h1 {
     "articulo1 articulo1 articulo1 articulo2"
     "articulo1 articulo1 articulo1 articulo2"
     "articulo3 articulo3 articulo3 articulo2"
-    "footer footer footer footer"
+    "footer footer footer footer";
 }
 
 .grid_contenedor div {
@@ -45,7 +45,6 @@ h1 {
   grid-area: articulo1;
   padding-top: 5px;
 }
-
 
 .grid_2 {
   display: flex;
@@ -132,7 +131,8 @@ ul.show {
   color: #ccc;
   box-shadow: 5px 5px 10px;
   border-radius: 7px;
-  padding: 5px;
+  padding: 4px;
+  margin-right: 15px;
 }
 
 .boton_nav:hover {
@@ -453,112 +453,18 @@ figure .ssn_logo {
   color: aqua;
 }
 
-
-/*MediaQuery*/
-/*
-@media screen and (max-width: 952px) {
-  .logo_img {
-    width: 150px;
-    margin-left: 0px;
-    margin-right: 5px;
-  }
-
-  h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-  .nav_menu li a {
-    font-size: 14px;
-  }
-  .grupo1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-  .red_social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 30px;
-    line-height: 35px;
-    color: aliceblue;
-    margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
-  }
-}
-
-/*@media screen and (max-width: 858px) {
-  h1 {
-    font-size: 18px;
-    text-align: center;
-    padding-right: 20px;
-  }
-  /*navegacion*/
-  /*.menu {
-    height: 65px;
-  }
-
-  .barra_btn {
-    display: inline-flex;
-  }
-
-  .nav_menu {
-    position: fixed;
-    width: 100vw;
-    height: calc(100%-65px);
-
-    top: -100vw;
-    align-items: center;
-    transition: all 0.4s;
-    flex-direction: column;
-  }
-  .nav_menu li {
-    margin: 30px 0 0 0;
-    line-height: 30px;
-  }
-  .nav_menu li a {
-    font-size: 18px;
-    color: aliceblue;
-    font-weight: bold;
-  }
+@media screen and (max-width: 991px) {
   .boton_nav {
     color: #ccc;
-    background: #436280;
-    box-shadow: 5px 5px 10px;
-    border-radius: 7px;
-    padding: 10px;
     margin: 10px;
   }
-  .logo_img {
-    width: 150px;
-    margin-left: 5px;
-    margin-left: 20px;
-  }
-  /*footer*/
- /* .grupo1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }*/
- /* .box h2 {
-    font-size: 12px;
-  }
-  .red_social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 25px;
-    line-height: 30px;
-    color: aliceblue;
-    margin-right: 10px;
-    background-color: #0d2033;
-    text-align: center;
-    transition: all 300ms ease;
+  /*Nosotros*/
+  .mapa {
+    width: 100%;
+    padding-left: 50px;
   }
   /*cotizador*/
-  /*.padre_cotizador {
+  .padre_cotizador {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -566,20 +472,5 @@ figure .ssn_logo {
     align-items: center;
     max-width: 400px;
     min-width: 150px;
-  }/*
-  /*Nosotros*/
- /* .mapa {
-    width: 100%;
-    padding-left: 50px;
   }
 }
-/*
-@media screen and (max-width: 858px) and (orientation: landscape) {
-  .nav_menu li {
-    margin: 5px 0 0 0;
-  }
-  .nav_menu {
-    overflow: scroll;
-    height: calc(100%);
-  }
-}*/
